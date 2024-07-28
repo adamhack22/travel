@@ -37,16 +37,33 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-a:link {
-	color: brown;
-}
-a:visited {
-	color: black;
-}
-a:hover {
+
+nav a:visited, a:link {
 	color: white;
 }
+nav a:hover, a:active {
+	color: blue;
+}
 
+section a:visited, a:link {
+	color: orange;
+}
+section a:hover, a:active {
+	color: blue;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 20%;
+	margin: 20px auto;
+	min-width: 200px;	
+}
+
+table th, table td {
+	border: 1px solid gray;
+	padding: 5px;
+}
 
 main {
     padding: 20px;
