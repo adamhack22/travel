@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*
+	My Reset Style Sheet
+    Amadou Dia
+	7/25/24
+	CIS 181 WW1 HW: Web Development I/Basic Web Technologies
+	Final Project
+*/
+
+/* Reset Style Sheet */
+	
+* { 
+	margin: 0; 
+	padding: 0; 
+	font-size: 100%;
+}
+
+li {
+	list-style-type: none;
+}
